@@ -1,21 +1,7 @@
-test_color_name_to_hex (__main__.TestExercice) ... ERROR
+test_color_name_to_hex (__main__.TestExercice) ... ok
 test_compute_mse (__main__.TestExercice) ... FAIL
 test_create_list (__main__.TestExercice) ... FAIL
 test_list_to_dict (__main__.TestExercice) ... ok
-
-======================================================================
-ERROR: test_color_name_to_hex (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 34, in test_color_name_to_hex
-    output = [exercice.color_name_to_hex(v) for v in colors]
-  File "test_exercice.py", line 34, in <listcomp>
-    output = [exercice.color_name_to_hex(v) for v in colors]
-  File "/home/runner/work/c04-ch6-exercices-2-fresayu/c04-ch6-exercices-2-fresayu/exercice.py", line 18, in color_name_to_hex
-    hexa = [(i,color.cnames[i]) for i in colors]
-  File "/home/runner/work/c04-ch6-exercices-2-fresayu/c04-ch6-exercices-2-fresayu/exercice.py", line 18, in <listcomp>
-    hexa = [(i,color.cnames[i]) for i in colors]
-NameError: name 'color' is not defined
 
 ======================================================================
 FAIL: test_compute_mse (__main__.TestExercice)
@@ -42,6 +28,6 @@ First extra element 0:
 Diff is 86292 characters long. Set self.maxDiff to None to see it. : Mauvaise reponse
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.069s
+Ran 4 tests in 0.080s
 
-FAILED (failures=2, errors=1)
+FAILED (failures=2)
