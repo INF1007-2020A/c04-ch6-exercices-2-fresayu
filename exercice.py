@@ -32,7 +32,7 @@ def erreur(*liste):
     liste = liste[0]
     moyenne = sum([(groupe[0] - groupe[1])**2 for groupe in liste])
 
-    return (moyenne/len(liste)) ** 0.5
+    return (moyenne/len(liste)) 
 
 def compute_mse(model_dict: dict) -> dict:
     # TODO: Calculer l'erreur quadratique moyen pour chaque modèle. Retourner un dictionnaire contenant les MSE.
